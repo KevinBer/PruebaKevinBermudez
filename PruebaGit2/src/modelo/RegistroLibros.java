@@ -22,7 +22,7 @@ public class RegistroLibros {
         String datos = "";
         for(Libro libro:libros)//for ish ciclo autonomo
             datos+=libro.toString()+"\n\n";
-        System.out.print("");
+        System.out.print("hola");
         return datos;
         
     }
