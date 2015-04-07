@@ -30,6 +30,7 @@ public class RegistroLibros {
     public Libro buscarLibro(String ISBN){
         for(Libro libro:libros){
             if(libro.getISBN().equals(ISBN))
+                System.out.println("HOLA MUNDO BRYAN");
                 return libro;
         }//fin for
     return null;
