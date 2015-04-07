@@ -22,7 +22,9 @@ public class RegistroLibros {
         String datos = "";
         for(Libro libro:libros)//for ish ciclo autonomo
             datos+=libro.toString()+"\n\n";
+        System.out.print("");
         return datos;
+        
     }
     
     public Libro buscarLibro(String ISBN){
