@@ -17,5 +17,6 @@ public class Biblioteca {
     public static void main(String[] args) {
         GUIEstudiante guiEstudiante = new GUIEstudiante();
         GUILibro guiLibro = new GUILibro();
+        System.out.println("lalala");
     }
 }
